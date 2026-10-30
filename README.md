@@ -1,6 +1,6 @@
-# MarioTheAgent — dokumentacja
+# MarioYourAgent — dokumentacja
 
-MarioTheAgent (w skrócie Mario) to prywatne narzędzie jednego sprzedawcy do ewidencji dostaw towaru, kosztów zakupu
+MarioYourAgent (w skrócie Mario) to prywatne narzędzie jednego sprzedawcy do ewidencji dostaw towaru, kosztów zakupu
 i sprzedaży. Aplikacja nie jest oferowana innym sprzedawcom i działa wyłącznie na koncie swojego właściciela.
 
 ## Integracje

@@ -2,13 +2,13 @@
 title: Integracja z Allegro
 ---
 
-# MarioTheAgent — integracja z Allegro
+# MarioYourAgent — integracja z Allegro
 
 [← Wszystkie integracje](../)
 
-## Czym jest MarioTheAgent
+## Czym jest MarioYourAgent
 
-MarioTheAgent to prywatne narzędzie jednego sprzedawcy, służące do ewidencji dostaw towaru i sprzedaży. Aplikacja nie
+MarioYourAgent to prywatne narzędzie jednego sprzedawcy, służące do ewidencji dostaw towaru i sprzedaży. Aplikacja nie
 jest oferowana innym sprzedawcom i działa wyłącznie na koncie swojego właściciela.
 
 ## Jak aplikacja korzysta z Allegro REST API
