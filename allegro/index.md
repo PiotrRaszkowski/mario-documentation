@@ -32,9 +32,15 @@ Dostęp można w każdej chwili cofnąć w ustawieniach konta Allegro.
 
 ## Dane
 
-Pobrane dane trafiają wyłącznie do bazy danych właściciela. Z danych kupującego zapisywane są tylko identyfikator
-i login Allegro (bez imienia, nazwiska, adresu, e-maila i telefonu). Dane nie są udostępniane osobom trzecim ani
-wykorzystywane w innym celu niż ewidencja sprzedaży.
+Pobrane dane trafiają wyłącznie do bazy danych właściciela, na jego własnym serwerze. Przy każdym zamówieniu zapisywane
+są dane potrzebne do jego obsługi i rozliczenia: identyfikator i login kupującego w Allegro, imię i nazwisko, nazwa
+firmy, adres e-mail i telefon, adres dostawy, wybrany punkt odbioru, a gdy kupujący prosi o fakturę — dane do faktury
+(nazwa, adres i NIP). Dane osobowe kupującego są w bazie zaszyfrowane (AES-256-GCM), a klucz jest przechowywany
+oddzielnie od bazy.
+
+Aplikacja nigdy nie zapisuje numeru PESEL ani adresu z konta kupującego (usuwa je z odpowiedzi Allegro, zanim cokolwiek
+zapisze). Dane pochodzą wyłącznie z API zamówień Allegro, nie są udostępniane osobom trzecim ani wykorzystywane w innym
+celu niż ewidencja i obsługa sprzedaży.
 
 ## Kontakt
 
